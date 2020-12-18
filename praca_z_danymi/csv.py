@@ -60,6 +60,6 @@ for i in range(0, len(position)):
 
 new_data = "\n".join(new_data_row)
 
-with open("movie_base.csv", "w") as file:
+with open("cars_1.csv", "w") as file:
     file.write(new_data)
     file.close()
